@@ -44,4 +44,15 @@ class ReferenceTableViewController: UITableViewController {
         return 120
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "DetailSegue" else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        
+        let row = indexPath.row
+        let model = referenceModels[row]
+        
+        let controller = segue.destination as! DetailViewController
+        controller.model = model
+    }
+    
 }
