@@ -100,20 +100,6 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qMA-xc-G05" id="qsF-JJ-JsS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Бриг" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWE-lr-hpn">
-                                                    <rect key="frame" x="16" y="11" width="343" height="58"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="zWE-lr-hpn" firstAttribute="top" secondItem="qsF-JJ-JsS" secondAttribute="topMargin" id="hFb-CX-WxT"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="zWE-lr-hpn" secondAttribute="trailing" id="jdZ-g4-zJw"/>
-                                                <constraint firstItem="zWE-lr-hpn" firstAttribute="leading" secondItem="qsF-JJ-JsS" secondAttribute="leadingMargin" id="rO0-yc-Cow"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="zWE-lr-hpn" secondAttribute="bottom" id="wP1-ER-eyx"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="180" id="a4H-U6-Ppv">
@@ -150,7 +136,6 @@
                     <connections>
                         <outlet property="detailLabel" destination="a9Y-hT-km3" id="gxy-qA-TDc"/>
                         <outlet property="imageView" destination="U4f-2E-kc5" id="YP3-yY-R0x"/>
-                        <outlet property="titleLabel" destination="zWE-lr-hpn" id="cGb-v3-oHc"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bwl-P6-jYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
